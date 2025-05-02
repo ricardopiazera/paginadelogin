@@ -1,0 +1,79 @@
+body{
+    background: linear-gradient(to right, #3C187F, #8154d3);
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    margin: 0px;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif
+}
+div{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 50px 20px;
+    text-align: start;
+    
+}
+
+h1{
+    margin: 0px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #3C187F;
+    border-style: solid;
+}
+
+
+
+a{
+    margin-top: 15px;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #3C187F;
+    color: #fff;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover{
+    border-style: none;
+    background-color: #553c83;
+
+}
+
+#body-bemvindo{
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    flex-direction: column;
+}
+
+#h1-bemvindo{
+ color: #fff;
+}
+
+#retornar-bemvindo{
+    color: #fff;
+    text-decoration: none;
+}
+
+#retornar-bemvindo:hover{
+    color: black;
+}
+
